@@ -57,7 +57,7 @@ From your command line, clone and run developerFolio:
 $ git clone https://github.com/Butterfly9979/portfolio-template.git
 
 # Go into the repository
-$ cd portfolio-template
+$ cd Portfolio
 
 # Install dependencies
 $ npm install
