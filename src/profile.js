@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Ruis Sander",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,62 +20,41 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "A highly skilled Full-Stack Developer with over 5 years of experience in designing, developing, and deploying web applications. Expertise in both front-end and back-end technologies with a strong ability to create scalable and efficient solutions. Adept at collaborating with teams, optimizing performance, and applying best practices in software development",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
   {
-    name: "HTML5",
-    // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
-    svg: "M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z",
-    faClass: "fab fa-html5",
+    name: "C Language",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
   },
-  {
-    name: "CSS3",
-    // svg: '',
-    faClass: "fab fa-css3",
-  },
-  {
-    name: "Javascript",
-    // svg: '',
-    faClass: "fab fa-js",
-  },
-  {
-    name: "SASS",
-    // svg: '',
-    faClass: "fab fa-sass",
-  },
-  {
-    name: "Node",
-    // svg: '',
-    faClass: "fab fa-node",
-  },
-  {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
-  },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
-    // svg: '',
-    faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
-  },
+  { name: "TypeScript", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
+  { name: "Express", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" },
+  { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" },
+  { name: "Postman", link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
+  { name: "Dart", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" },
+  { name: "Flutter", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" },
+  { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
+  { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
+  { name: "Bootstrap", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
+  { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+  { name: "Sass", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" },
+  { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "Tailwind CSS", link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+  { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" },
+  { name: "MySQl", link: "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" },
+  { name: "Mongo DB", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" },
+  { name: "Heroku", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" },
+  { name: "Next.js", link: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" },
+  { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
+  { name: "Vue", link: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" },
+  { name: "Firebase", link: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+  { name: "Python", link: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
+  { name: "Django", link: "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" },
+  { name: "Php", link: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" },
+  { name: "WordPress", link: "https://seeklogo.com/vector-logo/299143/wordpress-icon" }
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -83,80 +62,117 @@ const skillsBar = [
 const section3Title = "Past Projects";
 const projects = [
   {
-    // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Smart School",
+    skills: ["PHP ,HTML, CSS, JS"],
+    url: "https://smart-school.in/",
+    img: "Smart School.jpg"
   },
   {
-    // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Sitemagic",
+    skills: ["CMS ,HTML, CSS, JS"],
+    url: "https://sitemagic.org/",
+    img: "Site Magic.jpg"
   },
   {
-    // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "e107 CMS",
+    skills: ["CMS ,HTML, CSS, JS"],
+    url: "https://e107.org/",
+    img: "e107.jpg"
   },
   {
-    // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "MyRank",
+    skills: ["Laravel ,HTML, CSS, JS"],
+    url: "https://myrank.co.in/",
+    img: "My Rank.jpg"
   },
   {
-    // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Contentoo",
+    skills: ["Vue.js, PHP"],
+    url: "https://www.contentoo.com/",
+    img: "Contentoo.jpg"
   },
   {
-    // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Eoniq",
+    skills: ["Angular, Node.js"],
+    url: "https://www.eoniq.co/",
+    img: "Eoniq.jpg"
+  },
+  {
+    id: "project7",
+    name: "Florida Antiquarian Book Fair",
+    skills: ["HTML, CSS, JavaScript, WordPress"],
+    url: "https://www.floridaantiquarianbookfair.com/",
+    img: "Florida.jpg"
+  },
+  {
+    id: "project8",
+    name: "Easel.ly",
+    skills: ["D3.js, PHP"],
+    url: "https://easel.ly/",
+    img: "Easely.jpg"
+  },
+  {
+    id: "project9",
+    name: "Kudobuzz",
+    skills: ["React, Node.js"],
+    url: "https://kudobuzz.com/",
+    img: "Kudobuzz.jpg"
+  },
+  {
+    id: "project10",
+    name: "Afternic",
+    skills: ["HTML, CSS, JavaScript, C#"],
+    url: "https://www.afternic.com/",
+    img: "Afternic.jpg"
+  },
+  {
+    id: "project11",
+    name: "Flexiple",
+    skills: ["React, Node.js"],
+    url: "https://flexiple.com/",
+    img: "Flexiple.jpg"
+  },
+  {
+    id: "project12",
+    name: "UXTH",
+    skills: ["HTML, CSS, JavaScript, C#"],
+    url: "https://www.afternic.com/",
+    img: "Conference.jpg"
+  },
+  {
+    id: "project13",
+    name: "Listings Unlimited",
+    skills: ["HTML, CSS, JavaScript, C#"],
+    url: "https://www.listingsunlimited.com/",
+    img: "Listingsunlimited.jpg"
+  },
+  {
+    id: "project14",
+    name: "DefectDojo",
+    skills: ["Python ,Vue.js"],
+    url: "https://defectdojo.com/",
+    img: "DefectDojo.jpg"
+  },
+  {
+    id: "project15",
+    name: "Viewflow",
+    skills: ["HTML, CSS, JavaScript, C#"],
+    url: "https://viewflow.io/",
+    img: "Viewflow.jpg"
   },
 ];
-// Edit your Miscellaneous Activities, its name and the url.
-// You can omit freely anything if you dont have it
-// To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
-const miscellaneous = [
-  {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
-];
-// Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
-// To get your own jotform link, go to https://formspree.io/
-// If you hacve the link already, paste it in the contactUrl below
+
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "Please do not hesitate to contact us regarding any issues that arise. ---> ruissander9@gmail.com",
+  copyright: "Ruis Sander",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
@@ -177,11 +193,9 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
   contact,
   social,
   section2title,
   section3Title,
-  section4Title,
   section5Title,
 };
