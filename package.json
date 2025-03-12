@@ -10,14 +10,14 @@
     "caniuse-lite": "^1.0.30001703",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.1",
+    "react-tsparticles": "^2.12.2",
     "tsparticles": "1.33.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
